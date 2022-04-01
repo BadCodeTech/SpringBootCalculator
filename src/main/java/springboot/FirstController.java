@@ -20,5 +20,4 @@ public class FirstController {
     public String greetUser(@PathVariable String name){
         return "Hello, " + name +"!";
     }
-
 }
